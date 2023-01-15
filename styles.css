@@ -1,0 +1,58 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(178, 171, 186);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 300px;
+    height: 700px;
+    border: 8px solid rgb(211, 162, 211);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(216, 214, 214);
+    overflow-y: scroll;
+}
+
+#addNew {
+    display: flex;
+    background-color: rgb(218, 165, 225);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.fa-plus {
+    background-color:  rgb(152, 63, 164);
+    padding: 3px;
+    border-radius: 3px;
+    
+}
+
+#tasks {
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div{
+    background-color:  rgb(218, 165, 225);
+    border: 3px solid rgb(161, 76, 161);
+    padding: 5px;
+    border-radius: 6px;
+    display: grid;
+    gap: 4px;
+}
+
+.options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+#msg{
+    color: red;
+}
